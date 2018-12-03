@@ -6,6 +6,6 @@ function showUser(surname, name) {
 
 		alert("Пользователь " + surname + " " + name + ", его возраст " + this.value);
 }
-showUser.apply(age, "Иванов", "Петя");
+showUser.call(age, "Иванов", "Петя");
 
 
